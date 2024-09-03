@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@400;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+:root {
+ --backgroundColor:hsl(63, 26%, 45%);
+ --text:hsl(113, 87%, 21%);   
+ --headingsprimary:#E3B722;
+ --secondary:#89E322;
+ --accent:#E3CE22;
+}
+
+body{background-color: var(--backgroundColor) ;
+    font-family:"Montserrat Subrayada", sans-serif;
+}
+
+h1{color:hsl(113, 87%, 21%);
+font-family:"montserrat";
+font-weight:900;}
+
+h2{color: red;}
+
+p{color:var(--accent);}
+
+
